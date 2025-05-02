@@ -1,22 +1,41 @@
-# Project Overview: Weather Data Pipeline for Hamburg Sales Insights
-Client: A global food truck company operating across multiple countries.
+# 📊 Weather Impact Analysis on Sales — End-to-End Data Pipeline
 
-As a Data Engineer supporting my client’s analytics team, I was informed of an unusual sales pattern: sales in Hamburg, Germany dropped to $0 for several days in February. To assist the data analysts in understanding the root cause, I was tasked with two key objectives:
+Client: A globally operating food truck company
 
-1. Investigate the sales drop in Hamburg
+As part of a data engineering initiative, I was tasked with investigating an unexpected anomaly: sales in Hamburg, Germany dropped to $0 for several days in February. After consulting with data analysts, we suspected weather might be a contributing factor.
 
-2. Design and build an end-to-end data pipeline that keeps analysts continuously informed about weather conditions in Hamburg
+To support the analysis and provide real-time weather insights, I built a complete end-to-end data pipeline that integrates sales and weather data, performs analytical transformations, and delivers live visualizations.
 
-Objective
-To determine if external factors—such as weather—played a role in the sales disruption and to ensure the analytics team has up-to-date weather data moving forward for informed decision-making.
+## 🔍 Objective
 
-Solution
-I developed an automated data pipeline that:
+- Investigate the reason behind the drop in Hamburg sales
 
-- Ingests live weather data from a public API
+- Provide analysts with continuous access to real-time weather insights for Hamburg
 
-- Transforms and stores the data for analysis
+- Build a scalable data solution that enables ongoing monitoring and analysis
 
-- Makes the information accessible for analysts via downstream tools
+## 🛠️ Pipeline Breakdown
 
-This pipeline enables ongoing monitoring of Hamburg’s weather conditions, allowing for quick cross-referencing with sales anomalies and ensuring the business can respond proactively to similar incidents in the future.
+Ingestion
+
+✅ Load live weather data from Snowflake Marketplace
+
+✅ Load sales data from the client’s AWS S3 bucket
+
+Transformation
+
+🧠 Use SQL for data transformations within Snowflake
+
+📐 Create views optimized for analytical queries
+
+🧮 Build User-Defined Functions (UDFs) for weather-based enrichment calculations
+
+Delivery
+
+📈 Develop and deploy a Streamlit application within Snowflake (Python-based)
+
+🌤️ Provide live graphs of Hamburg’s weather and link to sales performance
+
+📊 Ensure insights are accessible and interactive for analysts
+
+This project demonstrates my ability to deliver a full-stack data solution—from ingestion to visualization—leveraging modern cloud tools like Snowflake, AWS, and Streamlit.
