@@ -39,3 +39,5 @@ Delivery
 📊 Ensure insights are accessible and interactive for analysts
 
 This project demonstrates my ability to deliver a full-stack data solution—from ingestion to visualization—leveraging modern cloud tools like Snowflake, AWS, and Streamlit.
+
+![Screenshot 2025-05-02 at 21 06 01](https://github.com/user-attachments/assets/026bc1cc-3f11-4f48-8e7a-f7617487a7c0)
