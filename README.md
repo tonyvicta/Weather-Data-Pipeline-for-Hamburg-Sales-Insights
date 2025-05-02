@@ -1,4 +1,4 @@
-# 📊 Weather Impact Analysis on Sales — End-to-End Data Pipeline
+# Weather Data Pipeline for Hamburg Sales Insights
 
 Client: A globally operating food truck company
 
