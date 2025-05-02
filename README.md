@@ -14,6 +14,17 @@ To support the analysis and provide real-time weather insights, I built a comple
 
 - Build a scalable data solution that enables ongoing monitoring and analysis
 
+
+## 🧰 Tech Stack
+- Snowflake – Cloud data warehouse for data storage, transformation, and hosting the Streamlit app
+- AWS S3 – Source for ingesting raw sales data (CSV files)
+- Snowflake Marketplace – Source of live weather data
+- SQL – Used for data transformation, view creation, and UDF logic
+- Python – Used to build the Streamlit front-end application
+- Streamlit (in Snowflake) – Interactive UI for submitting smoothie orders and visualizing data
+
+
+
 ## 🛠️ Pipeline Breakdown
 
 Ingestion
