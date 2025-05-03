@@ -27,13 +27,13 @@ To support the analysis and provide real-time weather insights, I built a comple
 
 ## 🛠️ Pipeline Breakdown
 
-Ingestion
+### Ingestion
 
 ✅ Load live weather data from Snowflake Marketplace
 
 ✅ Load sales data from the client’s AWS S3 bucket
 
-Transformation
+### Transformation
 
 🧠 Use SQL for data transformations within Snowflake
 
@@ -41,7 +41,7 @@ Transformation
 
 🧮 Build User-Defined Functions (UDFs) for weather-based enrichment calculations
 
-Delivery
+### Delivery
 
 📈 Develop and deploy a Streamlit application within Snowflake (Python-based)
 
