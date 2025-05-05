@@ -25,6 +25,30 @@ To support the analysis and provide real-time weather insights, I built a comple
 
 
 
+## 📁 Project Structure
+
+```
+Weather-Data-Pipeline-for-Hamburg-Sales-Insights/
+│
+├── 00_ingestion/solution/
+│     ├── copy_into.sql       
+│     └── load_tasty_bytes.sql
+│
+├── 01_transformation/
+│     ├── hamburg_sales.sql
+│     ├── udf.sql
+│     └── updated_hamburg_sales.sql
+│ 
+├── 02_delivery/
+│     └── streamlit.py   
+│ 
+├── LICENSE
+│    
+└── README.md
+```
+
+
+
 ## 🛠️ Pipeline Breakdown
 
 ### Ingestion
